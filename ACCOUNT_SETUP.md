@@ -38,6 +38,10 @@ https://archestra.ai/contributor-onboard
 
 Why: Archestra limits comments and PRs to onboarded/prior contributors. Their page is explicitly a human-verification gate, so Codex should not click through it.
 
+## Optional Human Setup
+
+Create or connect an Algora developer account only if you want Codex to claim Algora bounties directly. This requires GitHub OAuth and payout eligibility steps, so Codex can prepare the target list and PR body but should not approve OAuth, KYC, tax, or payout forms.
+
 ## Sponsors Link
 
 https://github.com/sponsors/cobymyers
@@ -51,3 +55,9 @@ Use this only after there is a concrete accepted or reviewable contribution. Avo
 3. Wait for maintainer assignment.
 4. Implement on a branch.
 5. Open PR with tests and `/claim #issue`.
+
+## Next Codex Step Without Onboarding
+
+1. Continue scanning for direct GitHub issues where the requester explicitly offers payment.
+2. Prefer unoccupied issues where GitHub Sponsors is acceptable as the payout rail.
+3. Open a PR only when the fix is useful even if no payment arrives.
