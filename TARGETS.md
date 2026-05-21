@@ -24,6 +24,10 @@ GitHub Sponsors is live at `https://github.com/sponsors/cobymyers`, so direct-pa
 
 ## Live Scan Findings - 2026-05-21
 
+### Submitted
+
+- `Feel-ix-343/markdown-oxide#269` - $5 Algora bounty. Submitted PR `Feel-ix-343/markdown-oxide#457` from branch `cobymyers:fix-inline-code-wikilink-markers`. Fix filters parsed references that overlap inline/fenced code spans, preventing literal inline-code markers like `` `[[` and `]]` `` from becoming fake unresolved wikilinks. Verification: `cargo fmt --check`, `cargo test wiki_link -- --nocapture`, `cargo test`, `git diff --check`.
+
 ### Candidate but currently occupied
 
 - `ngscopeclient/scopehal-apps#987` - GBP 100 Flatpak bounty. Occupied by existing PR/review work and project has an explicit AI-code attribution policy. No action unless maintainers invite a non-code validation role.
