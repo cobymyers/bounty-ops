@@ -7,8 +7,8 @@ This file tracks the accounts and access needed for the first paid OSS bounty at
 | Service | Purpose | Status | Owner |
 | --- | --- | --- | --- |
 | GitHub `cobymyers` | Public contributions, forks, PRs, issues | Ready | Codex can operate with approval |
-| GitHub Sponsors | Future one-time sponsor payments | Pending approval | Coby |
-| Stripe Connect | GitHub Sponsors payout rail | Connected, pending Sponsors approval | Coby |
+| GitHub Sponsors | One-time sponsor payments for accepted work | Live | Codex can reference public link |
+| Stripe Connect | GitHub Sponsors payout rail | Connected | Coby |
 | Algora | Payout-on-merge bounty rail | Not connected | Coby approval required |
 | Archestra contributor onboarding | Required before Archestra PR/comment access | Blocked by human verification | Coby must complete |
 
@@ -37,6 +37,12 @@ Complete Archestra onboarding:
 https://archestra.ai/contributor-onboard
 
 Why: Archestra limits comments and PRs to onboarded/prior contributors. Their page is explicitly a human-verification gate, so Codex should not click through it.
+
+## Sponsors Link
+
+https://github.com/sponsors/cobymyers
+
+Use this only after there is a concrete accepted or reviewable contribution. Avoid asking for payment before a maintainer has confirmed the work is useful.
 
 ## Next Codex Step After Onboarding
 
