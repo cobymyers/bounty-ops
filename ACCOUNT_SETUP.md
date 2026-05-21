@@ -9,7 +9,7 @@ This file tracks the accounts and access needed for the first paid OSS bounty at
 | GitHub `cobymyers` | Public contributions, forks, PRs, issues | Ready | Codex can operate with approval |
 | GitHub Sponsors | One-time sponsor payments for accepted work | Live | Codex can reference public link |
 | Stripe Connect | GitHub Sponsors payout rail | Connected | Coby |
-| Algora | Payout-on-merge bounty rail | Not connected | Coby approval required |
+| Algora | Payout-on-merge bounty rail | Account created | Codex can target eligible bounties |
 | Archestra contributor onboarding | Required before Archestra PR/comment access | Blocked by human verification | Coby must complete |
 
 ## What Codex Can Handle
@@ -22,11 +22,14 @@ This file tracks the accounts and access needed for the first paid OSS bounty at
 - Run tests and prepare evidence.
 - Publish support repos owned by `cobymyers` when approved.
 
+## Algora Operating Rule
+
+Do not comment `/attempt`, claim, or open a PR on issues that have an assigned contributor, visible active attempt, active claim, or existing PR. Algora sign-up warns this can result in an immediate ban, so Codex should treat any occupied issue as off limits unless a maintainer explicitly reopens it.
+
 ## What Requires Human Action
 
 - Human verification or anti-bot onboarding.
 - GitHub OAuth app authorization.
-- Algora payout account setup.
 - KYC, tax forms, bank, Stripe, or identity details.
 - Any action that submits payment details or legally binds the account.
 
@@ -38,9 +41,9 @@ https://archestra.ai/contributor-onboard
 
 Why: Archestra limits comments and PRs to onboarded/prior contributors. Their page is explicitly a human-verification gate, so Codex should not click through it.
 
-## Optional Human Setup
+## Algora Account Boundary
 
-Create or connect an Algora developer account only if you want Codex to claim Algora bounties directly. This requires GitHub OAuth and payout eligibility steps, so Codex can prepare the target list and PR body but should not approve OAuth, KYC, tax, or payout forms.
+Coby created the Algora account. Codex can find eligible Algora-backed issues and prepare/submit useful PRs, but should not approve OAuth changes, KYC, tax, payout, or identity forms.
 
 ## Sponsors Link
 

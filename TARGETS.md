@@ -24,6 +24,8 @@ GitHub Sponsors is live at `https://github.com/sponsors/cobymyers`, so direct-pa
 
 ## Live Scan Findings - 2026-05-21
 
+Account-ready scan rule: after Algora signup, treat assigned, claimed, attempted, or PR'd issues as off limits unless a maintainer explicitly says the issue is open again.
+
 ### Submitted
 
 - `Feel-ix-343/markdown-oxide#269` - $5 Algora bounty. Submitted PR `Feel-ix-343/markdown-oxide#457` from branch `cobymyers:fix-inline-code-wikilink-markers`. Fix filters parsed references that overlap inline/fenced code spans, preventing literal inline-code markers like `` `[[` and `]]` `` from becoming fake unresolved wikilinks. Verification: `cargo fmt --check`, `cargo test wiki_link -- --nocapture`, `cargo test`, `git diff --check`.
@@ -41,12 +43,22 @@ GitHub Sponsors is live at `https://github.com/sponsors/cobymyers`, so direct-pa
 - `haraschax/nograd#2` - $100 bounty. Several existing PRs already submitted.
 - `aukilabs/hagall#62` - $50 ROS2 relay bounty. Existing PRs already submitted.
 - `dmamontov/hass-miwifi#409` - 50 USDT offer. Another contributor points to a separate updated repository and says it is free there.
+- `potpie-ai/potpie#224` and `#222` - Algora bounties, but assigned and crowded with attempts/PRs.
+- `archestra-ai/archestra#4463`, `#4464`, and `#4145` - Algora bounties, but assigned, reserved, or already covered by attempts/PRs.
+- `gitearn-io/gitearn#3` - $5 bounty. Existing attempts and PRs already submitted.
+- `watney-ai/open-source-bounties#1` - small test bounty. Crowded with attempts/PRs; not worth account risk.
+- `openstreetmap-ng/openstreetmap-ng` $10-$30 bounties - multiple bounty-labeled issues inspected; active comments and PRs already exist.
+- `JuliaPlots/Plots.jl#3560` - $50 bounty. Multiple active PRs already open.
+- `aqualinkorg/aqualink-app#1162` - $50 Algora bounty. Highly crowded with attempts, PRs, and reward activity.
+- `Fahad-Dezloper/Crowdify#27` - $50 bounty. Project owner says the project is no longer maintained; several PRs already exist.
 
 ### Candidate but blocked
 
 - `archestra-ai/archestra` bounties - promising, but Archestra onboarding must be completed by a human first.
 - `UnsafeLabs/Bounty-Hunters` bounties - exclude. Their acceptance criteria ask contributors to publish private runtime instructions in `_contributor.json`, which Codex must not do.
 - `ClankerNation/OpenAgents` bounties - exclude for now. Very high claimed payouts, low-trust new repo, crypto-style payment details, and competition rules requiring public review attacks on competing PRs.
+- `keephq/keep` Algora issues inspected - several likely matches were already closed, rewarded, or assigned.
+- Opire zero-claim candidates inspected - `uswriting/zeroperl#7` is closed/reserved and `radumarias/rencfs#3` has issue/PR ambiguity plus existing PR activity.
 
 ## Avoid
 
